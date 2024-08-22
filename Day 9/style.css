@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+/* aside starts */
+.aside{
+    width: 18vw;
+    height: 100vh;
+    background-color: #171821;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+}
+.aside img{
+    margin: 2rem 0;
+}
+ 
+
+.sidelinks{
+    /* background-color: lightblue; */
+    /* padding: top right bottom left; */
+    padding: 0.8rem 2rem 0.8rem 1rem;
+    border-radius: 0.5rem;
+    width: 65%;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.sidelinks:hover{
+    background-color: #454759;
+}
+
+
