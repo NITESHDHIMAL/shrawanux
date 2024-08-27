@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* attribute selector syntax   */
+        /* selector[attribute = value ]   */
+        img[alt="image"] {
+            height: 150px;
+        }
+
+        .image2 img{
+            height: 200px;
+        }
+
+        a[target="_blank"] {
+            color: green;
+        }
+
+        li:first-child{
+            color: red;
+        }
+        li:last-child{
+            color: green;
+        }
+
+        li:nth-child(2){
+            color: brown;
+        }
+        p:hover::after{
+            content: "After";
+            font-size: 2rem;
+            color: green;
+            cursor: pointer;
+        }
+
+        p::before{
+            content: "The";
+            font-size: 3rem;
+            color: red;
+        }
+        
+        /* span{
+            font-size: 4rem;
+        } */
+
+
+
+
+    </style>
+</head>
+
+<body>
+
+  
+    <p> party’s central committee meeting on Tuesday ousted Dhakal from the general membership on the recommendation of the party’s disciplinary commission, said a leader.
+
+        https://kathmandupost.com/national/2024/08/27/rastriya-swatantra-party-expels-mukul-dhakal-from-party</p>
+
+     <ul>
+        <li>UI/UX</li>
+        <li>Python </li>
+        <li>Django</li>
+        <li>Digital Marketting</li>
+     </ul>
+
+    <img src="https://images.unsplash.com/photo-1707343843344-011332037abb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTF8fHxlbnwwfHx8fHw%3D"
+        alt="image">
+    <div class="image2">
+        <img src="https://images.unsplash.com/photo-1707343848610-16f9afe1ae23?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTJ8fHxlbnwwfHx8fHw%3D"
+            alt="image2">
+    </div>
+
+
+    <a href="https://www.google.com/" target="_blank" >Go google</a>
+    <a href="https://www.microsoft.com/en-us/software-download/windows10ISO" target="_top" >Go microsoft</a>
+
+</body>
+
+</html>

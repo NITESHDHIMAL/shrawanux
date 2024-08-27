@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selector</title>
+    <style>
+        /* * {
+            color: red;
+            margin: 0;
+        } */
+
+        /* body {
+            background-color: lightcoral;
+            margin: 0;
+        } */
+
+        /* css syntax/rules */
+        /* selector {
+            property: value;
+        } */
+
+        /* element selector */
+        /* h2 {
+            color: aqua;
+        } */
+
+        img {
+            height: 100px;
+        }
+
+        /* class selector */
+        .header,
+        /* .header1 {
+            color: aquamarine;
+        } */
+
+        .header1 {
+            font-size: 3rem;
+        }
+
+        .header1:hover{
+            color: yellow;
+            cursor: pointer;
+            /* cursor:help; */
+        }
+
+        /* id selector/unique    */
+        /* #para {
+            color: red;
+        } */
+
+        .box{
+            height: 150px;
+            width: 150px;
+            background-color: lightcoral;
+            transition: all 1s;
+        }
+        .box:hover{
+            background-color: lightblue;
+            cursor: pointer;
+        }
+        .box .smbox{
+            font-size: 2rem;
+        }
+
+
+        /* .smbox{
+            font-size: 2rem;
+        } */
+
+        a{
+            /* text-decoration: line-through; */
+            text-decoration: none;
+            color: red;
+            width: 100%;
+        }
+        .span{
+            text-align: center;
+        }
+
+        
+
+
+
+
+    </style>
+</head>
+
+<body>
+
+
+    <h2>this is heading two</h2>
+
+    <img src="https://images.unsplash.com/photo-1682685797277-f2bf89b24017?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="">
+
+
+    <div class="header">
+        this changes from class selector
+    </div>
+    <div class="header1">
+        this changes from class selector
+    </div>
+
+    <p id="para">Lorem ipsum dolor sit amet consectetur.</p>
+    <p id="para1">Lorem ipsum dolor sit amet consectetur.</p>
+
+    <!-- <div class="box">
+        box
+    </div> -->
+
+
+    <div class="box">
+        box content
+        <div class="minibox">
+            minibox content
+            <div class="smbox">
+                small box content
+            </div>
+        </div>
+    </div>
+
+
+    <div class="smbox">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid incidunt placeat, repellendus alias hic voluptates iusto quod laboriosam, maxime, eius veniam voluptas voluptatem unde atque a repudiandae. Ut, explicabo perspiciatis.
+    </div>
+
+   <span> <a href="">go google</a></span>
+
+
+   <div class="span"><span>go mindrisers</span></div>
+
+</body>
+
+</html>
