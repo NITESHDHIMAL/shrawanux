@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixels</title>
+    <!-- google font cdn  -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+        rel="stylesheet" />
+
+    <style>
+        * {
+            font-family: "Poppins", sans-serif;
+        }
+
+        ul {
+            display: flex;
+            list-style-type: none;
+            justify-content: center;
+            column-gap: 1.5rem;
+            align-items: center;
+        }
+
+        li:first-child {
+            background-color: black;
+            color: white;
+            padding: 1rem 1.5rem;
+            border-radius: 2rem;
+        }
+
+        .subcat {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .gallery {
+            display: flex;
+            width: 700px;
+            height: 600px;
+            background-color: aquamarine;
+            /* overflow: auto; */
+        }
+
+        /* .items img {
+            background-color: aqua;
+        } */
+
+        .items {
+
+            height: 400px;
+            width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="gallerycat">
+        <ul>
+            <li>Home</li>
+            <li>Videos</li>
+            <li>Leaderboard</li>
+            <li>Challenges</li>
+        </ul>
+    </div>
+
+    <div class="subcat">
+        <h2>Free Stock Photos</h2>
+        <select name="" id="">
+            <option value="">Trending</option>
+            <option value="">New</option>
+        </select>
+    </div>
+
+
+    <div class="gallery">
+        <div class="items">
+            <img src="https://images.pexels.com/photos/18487730/pexels-photo-18487730/free-photo-of-elderly-man-eating-breakfast.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                alt="image">
+        </div>
+        <div class="items">
+            <img src="https://images.pexels.com/photos/18487730/pexels-photo-18487730/free-photo-of-elderly-man-eating-breakfast.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                alt="image">
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
