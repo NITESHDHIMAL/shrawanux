@@ -36,22 +36,24 @@
         }
 
         .gallery {
-            display: flex;
-            width: 700px;
-            height: 600px;
-            background-color: aquamarine;
-            /* overflow: auto; */
+            display: flex; 
+            overflow: hidden;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        } 
+
+        .items { 
+            height: 300px;
+            width: 300px;
+        }
+        .items img{
+            height: 100%;
+            width: 100%;
         }
 
-        /* .items img {
-            background-color: aqua;
-        } */
 
-        .items {
 
-            height: 400px;
-            width: 400px;
-        }
     </style>
 </head>
 
@@ -76,12 +78,36 @@
 
 
     <div class="gallery">
-        <div class="items">
-            <img src="https://images.pexels.com/photos/18487730/pexels-photo-18487730/free-photo-of-elderly-man-eating-breakfast.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        <div class="items" id>
+            <img src="./image.jpg"
                 alt="image">
         </div>
         <div class="items">
-            <img src="https://images.pexels.com/photos/18487730/pexels-photo-18487730/free-photo-of-elderly-man-eating-breakfast.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+            <img src="./image.jpg"
+                alt="image">
+        </div>
+        <div class="items">
+            <img src="./image.jpg"
+                alt="image">
+        </div>
+        <div class="items">
+            <img src="./image.jpg"
+                alt="image">
+        </div>
+        <div class="items">
+            <img src="./image.jpg"
+                alt="image">
+        </div>
+        <div class="items">
+            <img src="./image.jpg"
+                alt="image">
+        </div>
+        <div class="items">
+            <img src="./image.jpg"
+                alt="image">
+        </div>
+        <div class="items">
+            <img src="./image.jpg"
                 alt="image">
         </div>
     </div>
