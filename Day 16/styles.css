@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0 10%;
+    background-color:#000000 ;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+/* navbar starts  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+
+}
+.logo img{
+    height: 45px;
+}
+.navlinks{
+    width: 35%;
+}
+.navlinks ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.hire button{ 
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(51, 43, 43);
+    background-color: black;
+    color: white;
+}
+
+.hire button:hover{
+    background-color: lightcoral; 
+    cursor: pointer;
+}
+
+
+
